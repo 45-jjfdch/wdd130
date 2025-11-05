@@ -31,7 +31,7 @@ aside{
     margin: 1rem;
     border: solid rgba(0, 0, 0, 0.2);
     padding: 1em;
-    background: #eee;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
