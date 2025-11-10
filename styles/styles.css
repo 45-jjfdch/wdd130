@@ -1,25 +1,35 @@
+:root{
+    --primary-color:darkblue;
+    --padding-nav: 10px;
+    --padding-link: 20px;
+    --padding-main: 2px;
+    --padding-p: 0;
+    --padding-aside: 1em;
+    --height-auto: auto;
+    --align-text: center;
+}
 nav{
-    background-color: darkblue;
-     padding: 10px;
+    background-color: var(--primary-color);
+     padding: var(--padding-nav);
     }
 nav a{
     color:white;
      display:block; 
-     padding: 20px;
+     padding: var(--padding-link);
     }
 h1{
-    color: darkblue;
+    color: var(--primary-color);
 }
-/* hjjjkkk */
+/* adding changes */
  main img{
     width: 150px;
-     height: auto; 
+     height: var(--height-auto); 
      border: 1px solid black; 
-     padding: 2px; 
+     padding: var(--padding-main); 
      box-shadow: 0 0 30px gray;
     } 
 p{
-    padding: 0;
+    padding: var(--padding-p);
 }
 
 main{
@@ -30,21 +40,21 @@ aside{
     width: 20rem;
     margin: 1rem;
     border: solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    padding: var(--padding-aside);
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--align-text);
 }
 
 aside img{
     width: 200px;
-    height: auto;
+    height: var(--height-auto);
 }
 
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--align-text);
 }
 
 
